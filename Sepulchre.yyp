@@ -343,6 +343,25 @@
             }
         },
         {
+            "Key": "71ab370f-cf43-421d-ac74-24400e924e9e",
+            "Value": {
+                "id": "dc80d481-b2de-4304-b337-5f6917454a39",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_player_roll_down\/s_player_roll_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "78deea04-4e4d-4d98-9d61-1e251feee640",
             "Value": {
                 "id": "99414d90-baa8-4522-b944-2b59575e9225",
@@ -435,6 +454,25 @@
                 ],
                 "resourcePath": "tilesets\/t_dirtwall\/t_dirtwall.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "a0d005f6-ab8e-4d45-8836-ceb52e52f4c2",
+            "Value": {
+                "id": "ba25632b-4464-4da7-93a7-a525df004cd6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_player_roll_up\/s_player_roll_up.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -682,6 +720,25 @@
                 ],
                 "resourcePath": "views\/e6732aad-2735-41b0-8532-7a760f8a0dfa.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e84a9e5f-6de9-46ca-8c39-28bf4468e560",
+            "Value": {
+                "id": "2a0c07cb-ffe6-48cb-93b8-21df13e87a92",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_player_roll_right\/s_player_roll_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
