@@ -22,7 +22,7 @@ if _x_input == 0 && _y_input == 0 {
 	image_speed = 3; //this is weird... 
 	apply_friction_to_movement_entity();
 } else {
-	image_speed = 0.6; //gogogog
+	image_speed = 1; //gogogog
 	if _x_input != 0 {
 		image_xscale = _x_input; //flip the sprite (1 or -1)
 	}
@@ -40,6 +40,9 @@ if _attack_input == true {
 	image_index = 0; //start at first frame
 	state_ = player.sword;
 }
+
+
+// PORKCHOP SANDWICHES!!!!
 
 //------------------------------
 // EVADE (ROLL)
