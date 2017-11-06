@@ -9,7 +9,7 @@ initialize_movement_entity(0.5, 1, o_solid);
 image_speed = 0;
 accelleration_ = 0.5;
 max_speed_ = 1.5;
-roll_speed_ = 2.5;
+roll_speed_ = 3;
 direction_facing_ = dir.right;
 roll_direction_ = 0; //(360 degrees)
 global.player_health = 4;
