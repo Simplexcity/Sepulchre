@@ -28,4 +28,3 @@ Controls:
 
 Notes:
 - Partial controller support added
-- WIP
