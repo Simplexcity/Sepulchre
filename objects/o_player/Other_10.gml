@@ -56,7 +56,7 @@ if _attack_input == true {
 }
 
 
-// PORKCHOP SANDWICHES!!!!
+// PORKCHOP SANDWICHES!!!! YUUUM
 
 //------------------------------
 // EVADE (ROLL)
