@@ -7,11 +7,11 @@ initialize_movement_entity(0.5, 1, o_solid);
 // GLOBAL VARIABLES_
 //------------------------------
 image_speed = 0;
-accelleration_ = 0.5;
+accelleration_ = 0.4;
 max_speed_ = 1.5;
 roll_speed_ = 3.1;
 direction_facing_ = dir.right;
-roll_direction_ = 0; //(360 degrees)
+roll_direction_ = 0;
 global.player_health = 4;
  
 

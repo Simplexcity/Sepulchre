@@ -9,10 +9,10 @@ image_speed = 0;
 if gamepad_is_connected(0) gamepad_set_axis_deadzone(0, 0.1);
 
 // inputs
-var _x_input_l = keyboard_check(ord("A")) || (gamepad_axis_value(0, gp_axislh) < 0);
-var _x_input_r = keyboard_check(ord("D")) || (gamepad_axis_value(0, gp_axislh) > 0);
-var _y_input_u = keyboard_check(ord("W")) || (gamepad_axis_value(0, gp_axislv) < 0);
-var _y_input_d = keyboard_check(ord("S")) || (gamepad_axis_value(0, gp_axislv) > 0);
+var _x_input_l = keyboard_check(vk_left) || (gamepad_axis_value(0, gp_axislh) < 0);
+var _x_input_r = keyboard_check(vk_right) || (gamepad_axis_value(0, gp_axislh) > 0);
+var _y_input_u = keyboard_check(vk_up) || (gamepad_axis_value(0, gp_axislv) < 0);
+var _y_input_d = keyboard_check(vk_down) || (gamepad_axis_value(0, gp_axislv) > 0);
 
 // directions
 var _x_input = _x_input_r - _x_input_l; //1=right,0=both(no movement),-1=left
