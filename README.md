@@ -10,7 +10,7 @@ The deeper he explores, the more the eldrich horrors become aware and things bec
 
 Themes:
 - Research
-- Otherworldly
+- Surreal Landscapes
 - Crystals
 - Time
 - Books
@@ -18,3 +18,14 @@ Themes:
 - The Macabre
 - Ancient doom
 - Dank histories
+- Yerka
+- Eldrich
+
+Controls:
+- Move: WASD
+- Roll: Z
+- Attack: X
+
+Notes:
+- Partial controller support added
+- WIP
