@@ -96,25 +96,6 @@
             }
         },
         {
-            "Key": "13d526f7-2973-4760-ba1d-12a74f9ad31b",
-            "Value": {
-                "id": "dc93f9bf-dc87-4c32-bd7f-180146a87aad",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sprites\/s_tree_deco\/s_tree_deco.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "175a0c53-cf74-4848-b10d-8abef7ba78f1",
             "Value": {
                 "id": "c3a9454b-39b5-42e7-9ca9-7991a8a54188",
@@ -207,25 +188,6 @@
                 ],
                 "resourcePath": "scripts\/set_movement\/set_movement.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "2fa48978-8311-42ed-8322-4052bc69c933",
-            "Value": {
-                "id": "c8bc4f45-7ded-4cee-b889-02d3a5d90fe9",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "tilesets\/t_tree\/t_tree.yy",
-                "resourceType": "GMTileSet"
             }
         },
         {
