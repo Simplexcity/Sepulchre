@@ -9,10 +9,7 @@ var _y_input = keyboard_check(vk_down) - keyboard_check(vk_up); //same as above 
 var _input_direction = point_direction(0, 0, _x_input, _y_input);
 var _attack_input = keyboard_check_pressed(ord("X"));
 var _roll_input = keyboard_check_pressed(ord("Z") );
-//roll_direction_ = direction_facing_*90; 
-roll_direction_ = _input_direction; //allows diagonal rolling as well
-//TODO: FIX DIRECTION FACING WHICH IS RESETTING TO FACE RIGHT
-// THIS MEANS IF YOU ROLL WHEN STATIONARY, YOU GO RIGHT. NONONONO!
+roll_direction_ = direction_facing_*90; 
 
 //------------------------------
 // MOVEMENT (AND PLAYER SPRITE)
