@@ -1,6 +1,6 @@
 /// @description Evade State
 
-image_speed = 1.1;
+image_speed = 1.2;
  
 set_movement(roll_direction_, roll_speed_); //sets direction, speed
 move_movement_entity(false); //again, no bounce

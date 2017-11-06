@@ -2,6 +2,8 @@
 // STEP EVENT
 //------------------------------
 
+depth = -y;
+
 //finite state machine, executes actions one at a time (states match enumes and user event#)
 event_user(state_);
 
