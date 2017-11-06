@@ -571,6 +571,25 @@
             }
         },
         {
+            "Key": "7b3ceba9-3ce8-4762-ab50-0f6f82ab3bc4",
+            "Value": {
+                "id": "e937987f-7a79-49d0-a811-478e14ecafd5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_grass_destroyed\/o_grass_destroyed.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7d561181-75f4-483e-9df4-6f33ad25c30e",
             "Value": {
                 "id": "212a07aa-63ea-4522-8fc3-ed5a2f7a7b3b",
@@ -739,6 +758,25 @@
                 ],
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aa742c7d-a959-4ff7-8abb-4af995673b70",
+            "Value": {
+                "id": "5d218eed-e986-447c-90ae-dcfad624026a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_grass_effect\/s_grass_effect.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
