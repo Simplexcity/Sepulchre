@@ -22,7 +22,7 @@ Themes:
 - Eldrich
 
 Controls:
-- Move: WASD
+- Move: Arrow Keys
 - Roll: Z
 - Attack: X
 
