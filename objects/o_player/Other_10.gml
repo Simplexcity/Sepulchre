@@ -4,11 +4,28 @@
 // LOCAL _VARIABLES
 //------------------------------
 image_speed = 0;
-var _x_input = keyboard_check(vk_right) - keyboard_check(vk_left); //1=right,0=both(no movement),-1=left
-var _y_input = keyboard_check(vk_down) - keyboard_check(vk_up); //same as above but on y axis
+
+// Set controller 0 dead zone
+if gamepad_is_connected(0) gamepad_set_axis_deadzone(0, 0.1);
+
+// inputs
+var _x_input_l = keyboard_check(ord("A")) || (gamepad_axis_value(0, gp_axislh) < 0);
+var _x_input_r = keyboard_check(ord("D")) || (gamepad_axis_value(0, gp_axislh) > 0);
+var _y_input_u = keyboard_check(ord("W")) || (gamepad_axis_value(0, gp_axislv) < 0);
+var _y_input_d = keyboard_check(ord("S")) || (gamepad_axis_value(0, gp_axislv) > 0);
+
+// directions
+var _x_input = _x_input_r - _x_input_l; //1=right,0=both(no movement),-1=left
+var _y_input = _y_input_d - _y_input_u; //same as above but on y axis
+// TODO: Make gamepad joystick work at same time as keyboard controls above (just overrides them right now if it's plugged in)
+if gamepad_is_connected(0) {
+	_x_input = gamepad_axis_value(0, gp_axislh);
+	_y_input = gamepad_axis_value(0, gp_axislv);
+}
+
 var _input_direction = point_direction(0, 0, _x_input, _y_input);
-var _attack_input = keyboard_check_pressed(ord("X"));
-var _roll_input = keyboard_check_pressed(ord("Z") );
+var _attack_input = keyboard_check_pressed(ord("X")) || gamepad_button_check_pressed(0, gp_face1);
+var _roll_input = keyboard_check_pressed(ord("Z")) || gamepad_button_check_pressed(0, gp_face2);
 roll_direction_ = direction_facing_*90; 
 
 //------------------------------
@@ -21,7 +38,7 @@ if _x_input == 0 && _y_input == 0 {
 } else {
 	image_speed = 1; //gogogog
 	if _x_input != 0 {
-		image_xscale = _x_input; //flip the sprite (1 or -1)
+		image_xscale = sign(_x_input); //flip the sprite (1 or -1)
 	}
 	
 	get_direction_facing(_input_direction);
