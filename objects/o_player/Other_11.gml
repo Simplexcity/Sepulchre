@@ -9,7 +9,7 @@ if animation_hit_frame(1) {
 	var _life = 3;
 	var _damage =1;
 	var _knockback = 8;
-	var _hitbox = create_hitbox(s_sword_hitbox, x, y, _angle, _life, [], _damage, _knockback);
+	var _hitbox = create_hitbox(s_sword_hitbox, x, y, _angle, _life, [o_enemy], _damage, _knockback);
 
 	//If direction facing is dir.up, then minus 4 from hitboxY and exit
 	switch direction_facing_ {

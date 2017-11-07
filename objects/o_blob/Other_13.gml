@@ -9,8 +9,8 @@ if animation_hit_frame(3) {
 	var _damage = 1;
 	var _knockback = 4;
 	var _life = 1;
-	create_hitbox(s_blob, x, y-8, 0, _life, [], _damage, _knockback);
-	//replace with blob hitbox sprite
+	//this is the enemy blobs hit list! he wants to skeng the o_player
+	create_hitbox(s_blob_hitbox, x, y-8, 0, _life, [o_player], _damage, _knockback);
 }
 
 //(image_number - 1) the last frame
