@@ -262,7 +262,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/o_badthing\/o_badthing.yy",
+                "resourcePath": "objects\/o_blob\/o_blob.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1309,6 +1309,25 @@
                 ],
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f5debab8-c8ca-4a7d-8b97-e73e2071603a",
+            "Value": {
+                "id": "f4f8f7de-f805-47b6-ada4-f0e8e29c3b9f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/f5debab8-c8ca-4a7d-8b97-e73e2071603a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
