@@ -1179,6 +1179,25 @@
             }
         },
         {
+            "Key": "e6e7e4b1-2601-4693-8cf2-cc7ad9e09383",
+            "Value": {
+                "id": "e4c63b16-af55-4794-a197-242212e9e3d1",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_blob_attack\/s_blob_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e84a9e5f-6de9-46ca-8c39-28bf4468e560",
             "Value": {
                 "id": "2a0c07cb-ffe6-48cb-93b8-21df13e87a92",

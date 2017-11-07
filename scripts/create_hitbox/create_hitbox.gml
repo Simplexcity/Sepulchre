@@ -18,7 +18,7 @@ var _knockback = argument7;
 
 
 //The id of the created instance is stored in the local hitbox variable 
-var _hitbox = instance_create_layer(_x, _y, "Instances_Walls", o_hitbox);
+var _hitbox = instance_create_layer(_x, _y, "Instances", o_hitbox);
 //so we can modify the hitbox and only use 1 object
 _hitbox.sprite_index = _sprite;
 _hitbox.image_angle = _angle;
