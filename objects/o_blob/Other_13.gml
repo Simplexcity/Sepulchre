@@ -4,7 +4,7 @@
 
 //Attack triggers when enemy gets close to player
 //gives player till frame 3 to react
-if animation_hit_frame(2) {
+if animation_hit_frame(3) {
 	//make code more readable
 	var _damage = 1;
 	var _knockback = 4;
