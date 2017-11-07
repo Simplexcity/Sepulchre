@@ -685,6 +685,25 @@
             }
         },
         {
+            "Key": "88b3fea1-7d65-476e-98c2-ce343b4aa6ae",
+            "Value": {
+                "id": "460ac650-3a93-41c0-952c-48962975c214",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/blob_attack\/blob_attack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8d54df2e-9872-4b2d-89d3-07ee47ef7c7a",
             "Value": {
                 "id": "79a425de-4cac-4e28-9a11-e8950bbc43dd",
@@ -1397,7 +1416,8 @@
         "7d561181-75f4-483e-9df4-6f33ad25c30e",
         "ebf15ea5-c04a-4d97-898c-67939e14494a",
         "5f392e65-4e33-42c9-b911-25f97d4ea2ed",
-        "767e04c5-e6e3-4f47-bf54-1772c2c6c79b"
+        "767e04c5-e6e3-4f47-bf54-1772c2c6c79b",
+        "88b3fea1-7d65-476e-98c2-ce343b4aa6ae"
     ],
     "tutorial": ""
 }

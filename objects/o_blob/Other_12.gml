@@ -23,3 +23,5 @@ if speed_ == 0 {
 	alarm[1] = random_range(1, 3) * game_get_speed(gamespeed_fps);
 	state_ = blob.idle;
 }
+
+blob_attack();

@@ -9,3 +9,5 @@ if alarm[1] <= 0 {
 	state_ = blob.move;
 	direction_ = random(360);
 }
+
+blob_attack();
