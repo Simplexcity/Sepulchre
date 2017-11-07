@@ -1,6 +1,6 @@
 /// @description Attack state
 
-//image_speed = 0.3;
+image_speed = 0.3;
 
 //Attack triggers when enemy gets close to player
 //gives player till frame 3 to react

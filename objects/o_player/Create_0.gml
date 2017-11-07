@@ -2,6 +2,7 @@
 // INIT SCRIPTS
 //------------------------------
 initialize_movement_entity(0.5, 1, o_solid);
+initialize_hurtbox_entity();
 
 //------------------------------
 // GLOBAL VARIABLES_

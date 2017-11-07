@@ -13,5 +13,7 @@ repeat _array_length {
 	if object_is_ancestor(_value, _array[_index]) return true;
 	_index++; //add index and continue looping
 }
+//could also use a for loop
+//for (var _index=0; _index<_array_length; _index++ { }
 
 return false;
