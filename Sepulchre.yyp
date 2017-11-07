@@ -514,6 +514,25 @@
             }
         },
         {
+            "Key": "66f3a05f-79d5-4d5a-8ba0-8294832ba8c3",
+            "Value": {
+                "id": "a2601b18-74ed-42ac-b28a-bdf5165bb271",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/rch_grass_4x4_01\/rch_grass_4x4_01.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "6a1acb99-49b1-4ef6-9509-17d9c0160bee",
             "Value": {
                 "id": "2941a95a-6644-4db2-bb2f-9c7080e4463f",

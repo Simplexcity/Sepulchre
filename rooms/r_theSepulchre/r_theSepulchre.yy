@@ -2,7 +2,7 @@
 {
     "name": "r_theSepulchre",
     "id": "55d5c601-86d1-4333-850e-43c447e771f0",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
