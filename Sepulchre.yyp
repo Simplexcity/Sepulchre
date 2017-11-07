@@ -552,6 +552,25 @@
             }
         },
         {
+            "Key": "76a07543-28e6-4bf8-bb93-49571fe62f8d",
+            "Value": {
+                "id": "f8016fc8-e7b6-46a4-b061-0ca8e2cdf5e7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_enemy\/o_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "78deea04-4e4d-4d98-9d61-1e251feee640",
             "Value": {
                 "id": "99414d90-baa8-4522-b944-2b59575e9225",
@@ -833,6 +852,44 @@
                     "default"
                 ],
                 "resourcePath": "views\/ba289f02-6824-4812-8176-feb5005ed533.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bae83ba4-741c-48bd-a0f6-eb7edc65031b",
+            "Value": {
+                "id": "3ca6af47-e021-4250-9935-205dd2a7661e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/bae83ba4-741c-48bd-a0f6-eb7edc65031b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c4002ced-7782-40d8-b30f-10137b569a19",
+            "Value": {
+                "id": "be56f919-b8a3-47c4-8adb-88bd29c3d717",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/c4002ced-7782-40d8-b30f-10137b569a19.yy",
                 "resourceType": "GMFolder"
             }
         },
