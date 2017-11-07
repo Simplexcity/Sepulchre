@@ -115,6 +115,25 @@
             }
         },
         {
+            "Key": "17f8a835-eca1-4ed5-a835-209ac816c236",
+            "Value": {
+                "id": "8c786c4a-101f-40b2-b697-4a24cff64f8c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_blob\/s_blob.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1d3f82b9-7b66-4468-85c4-1c18ee4322d2",
             "Value": {
                 "id": "27c2926e-9a11-4e32-bdc2-6e69151f43c0",
@@ -226,6 +245,25 @@
                 ],
                 "resourcePath": "views\/396e7fdc-c4ad-4501-9a28-59905af64ad0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3f8d9697-6bc7-45ff-8aeb-12ad8fe5cfbf",
+            "Value": {
+                "id": "b254acc3-5b23-46b6-a905-bdc1bcad3c59",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_badthing\/o_badthing.yy",
+                "resourceType": "GMObject"
             }
         },
         {
