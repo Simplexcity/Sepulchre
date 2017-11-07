@@ -1,0 +1,13 @@
+{ "columns":9,
+ "image":"..\/sprites\/s_dirtpath_tileset\/f36e5d38-f56d-49fb-9631-7750aab59ca5.png",
+ "imageheight":32,
+ "imagewidth":144,
+ "margin":0,
+ "name":"t_dirtpath",
+ "spacing":0,
+ "tilecount":18,
+ "tileheight":16,
+ "tilewidth":16,
+ "transparentcolor":"#ff00ff",
+ "type":"tileset"
+}

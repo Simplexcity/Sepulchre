@@ -1,6 +1,6 @@
 
 {
-    "name": "rch_grass_4x4_01",
+    "name": "rch_grass_128_01",
     "id": "66f3a05f-79d5-4d5a-8ba0-8294832ba8c3",
     "creationCodeFile": "",
     "inheritCode": false,

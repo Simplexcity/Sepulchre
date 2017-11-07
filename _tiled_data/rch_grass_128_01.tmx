@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="4" height="4" tilewidth="16" tileheight="16" backgroundcolor="#162cbc" nextobjectid="1">
+ <tileset firstgid="1" source="t_dirtwall.json"/>
+ <layer name="Tiles_Walls" width="4" height="4">
+  <data encoding="csv">
+11,0,6,0,
+0,0,0,0,
+4,0,3,0,
+0,0,0,0
+</data>
+ </layer>
+</map>

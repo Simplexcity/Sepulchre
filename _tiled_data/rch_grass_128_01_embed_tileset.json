@@ -1,0 +1,40 @@
+{ "backgroundcolor":"#162cbc",
+ "height":4,
+ "test": [1,2,3,4],
+ "layers":[
+        {
+         "data":[11, 0, 6, 0, 0, 0, 0, 0, 4, 0, 3, 0, 0, 0, 0, 0],
+         "height":4,
+         "name":"Tiles_Walls",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":4,
+         "x":0,
+         "y":0
+        }],
+ "nextobjectid":1,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.0.3",
+ "tileheight":16,
+ "tilesets":[
+        {
+         "columns":9,
+         "firstgid":1,
+         "image":"..\/sprites\/s_dirtwall_tileset\/78fdc198-a56c-439c-8acd-a8ffdc86fce0.png",
+         "imageheight":64,
+         "imagewidth":288,
+         "margin":0,
+         "name":"t_dirtwall",
+         "spacing":0,
+         "tilecount":18,
+         "tileheight":32,
+         "tilewidth":32,
+         "transparentcolor":"#ff00ff"
+        }],
+ "tilewidth":16,
+ "type":"map",
+ "version":1,
+ "width":4
+}
