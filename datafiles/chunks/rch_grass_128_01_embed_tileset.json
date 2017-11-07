@@ -22,7 +22,7 @@
         {
          "columns":9,
          "firstgid":1,
-         "image":"..\/sprites\/s_dirtwall_tileset\/78fdc198-a56c-439c-8acd-a8ffdc86fce0.png",
+         "image":".\/chunks\/78fdc198-a56c-439c-8acd-a8ffdc86fce0.png",
          "imageheight":64,
          "imagewidth":288,
          "margin":0,

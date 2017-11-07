@@ -1,4 +1,5 @@
 ///@arg path
+///@usage var myData = load_json("/myDataFile.json");
 
 var _path = argument0;
 
