@@ -77,6 +77,25 @@
             }
         },
         {
+            "Key": "074fbf3f-74fa-4751-a5b8-0b0e1c56225a",
+            "Value": {
+                "id": "226a6911-49cc-46d9-b7a6-e0c5e07095df",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "datafiles_yy\/chunks\/rch_grass_128_02.json.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "077a2af3-5b18-4bfb-8b95-cd4aa24b12b8",
             "Value": {
                 "id": "6e57334c-24c8-44ae-80ce-890d954b22ca",
