@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="4" height="4" tilewidth="16" tileheight="16" backgroundcolor="#162cbc" nextobjectid="1">
- <tileset firstgid="1" source="t_dirtwall.json"/>
+ <tileset firstgid="1" name="t_dirtwall" tilewidth="32" tileheight="32" tilecount="18" columns="9">
+  <image source="../sprites/s_dirtwall_tileset/78fdc198-a56c-439c-8acd-a8ffdc86fce0.png" trans="ff00ff" width="288" height="64"/>
+ </tileset>
  <layer name="Tiles_Walls" width="4" height="4">
   <data encoding="csv">
 11,0,6,0,

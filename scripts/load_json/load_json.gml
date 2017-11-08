@@ -16,6 +16,11 @@ while (!file_text_eof(theJsonFile))
 }
 file_text_close(theJsonFile);
 
-var theJsonMap = json_decode(theData);
-
-return theJsonMap;
+if (!is_undefined(theData))
+{
+    var theJsonMap = json_decode( theData );
+    show_debug_message("read from file");
+	return theJsonMap;
+}
+else
+    exit;

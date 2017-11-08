@@ -7,23 +7,7 @@ var tileheight, tilewidth;
 
 filename = argument0;
 
-var data_file = file_text_open_read(working_directory + filename);
-var json_data = "";
-while (!file_text_eof(data_file))
-{
-
-    json_data += file_text_read_string(data_file);
-    file_text_readln(data_file);
-}
-file_text_close(data_file); 
-
-if ( !is_undefined(json_data) )
-{
-    var json = json_decode( json_data );
-    show_debug_message("read from file");
-}
-else
-    exit;
+var json = load_json(filename);
 
 global.tilewidth = ds_map_find_value( json, "tilewidth" );
 global.tileheight = ds_map_find_value( json, "tileheight" );
