@@ -267,6 +267,25 @@
             }
         },
         {
+            "Key": "41ef7f56-6a1b-4433-b01c-055789e8a333",
+            "Value": {
+                "id": "2b144364-fa05-4c8f-ade7-c1dfbd453813",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/r_init\/r_init.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "51fc7354-88d3-40da-8445-1ccc04e13710",
             "Value": {
                 "id": "59afd747-a249-4ec5-b598-a97b0992d607",
@@ -1138,6 +1157,25 @@
                 ],
                 "resourcePath": "scripts\/apply_friction_to_movement_entity\/apply_friction_to_movement_entity.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d78d40aa-ed4d-48d7-b92d-c3bc608720e8",
+            "Value": {
+                "id": "756110df-3562-4b5b-8836-1d935961e3d4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_game\/o_game.yy",
+                "resourceType": "GMObject"
             }
         },
         {

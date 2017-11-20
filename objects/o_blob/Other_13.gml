@@ -18,5 +18,5 @@ if animation_hit_frame(image_number - 1) {
 	state_ = blob.idle;
 	//reset sprite and alarm
 	sprite_index = s_blob;
-	alarm[1] = 2*game_get_speed(gamespeed_fps); //2 second cooldown on attacks
+	alarm[1] = 2*global.one_second; //2 second cooldown on attacks
 }
