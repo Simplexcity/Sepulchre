@@ -9,10 +9,10 @@ image_speed = 0;
 if gamepad_is_connected(0) gamepad_set_axis_deadzone(0, 0.1);
 
 // inputs
-var _x_input_l = keyboard_check(vk_left) || (gamepad_axis_value(0, gp_axislh) < 0);
-var _x_input_r = keyboard_check(vk_right) || (gamepad_axis_value(0, gp_axislh) > 0);
-var _y_input_u = keyboard_check(vk_up) || (gamepad_axis_value(0, gp_axislv) < 0);
-var _y_input_d = keyboard_check(vk_down) || (gamepad_axis_value(0, gp_axislv) > 0);
+var _x_input_r = o_input.right_ || (gamepad_axis_value(0, gp_axislh) > 0);
+var _x_input_l = o_input.left_ || (gamepad_axis_value(0, gp_axislh) < 0);
+var _y_input_u = o_input.up_ || (gamepad_axis_value(0, gp_axislv) < 0);
+var _y_input_d = o_input.down_ || (gamepad_axis_value(0, gp_axislv) > 0);
 
 // directions
 var _x_input = _x_input_r - _x_input_l; //1=right,0=both(no movement),-1=left
@@ -24,8 +24,8 @@ if gamepad_is_connected(0) {
 }
 
 var _input_direction = point_direction(0, 0, _x_input, _y_input);
-var _attack_input = keyboard_check_pressed(ord("X")) || gamepad_button_check_pressed(0, gp_face1);
-var _roll_input = keyboard_check_pressed(ord("Z")) || gamepad_button_check_pressed(0, gp_face2);
+var _attack_input = o_input.action_one_pressed_ || gamepad_button_check_pressed(0, gp_face1);
+var _roll_input = o_input.action_two_pressed_ || gamepad_button_check_pressed(0, gp_face2);
 roll_direction_ = direction_facing_*90; 
 
 //------------------------------
