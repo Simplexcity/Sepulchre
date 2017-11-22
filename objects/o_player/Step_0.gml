@@ -10,3 +10,8 @@ event_user(state_);
 //sprite lookup table (see create event)
 sprite_index = sprite_[state_, direction_facing_]; //sprite update
 
+//quick and dirty death
+if global.player_health <= 0 and !invincible_ {
+	instance_destroy();
+}
+

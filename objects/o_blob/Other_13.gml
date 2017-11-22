@@ -3,8 +3,8 @@
 image_speed = 0.3;
 
 //Attack triggers when enemy gets close to player
-//gives player till frame 3 to react
-if animation_hit_frame(3) {
+//gives player till frame 1 to react (reduced from 3)
+if animation_hit_frame(1) {
 	//make code more readable
 	var _damage = 1;
 	var _knockback = 4;

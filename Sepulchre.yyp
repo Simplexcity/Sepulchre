@@ -248,6 +248,25 @@
             }
         },
         {
+            "Key": "363ab14b-779c-41d1-8a8f-c49f1ef24702",
+            "Value": {
+                "id": "ba693f45-963d-45c9-89c0-76648aee2bbb",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_hit_effect\/s_hit_effect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "396e7fdc-c4ad-4501-9a28-59905af64ad0",
             "Value": {
                 "id": "bbea7166-8b79-4de3-9baa-fabf93735cc8",
@@ -453,6 +472,25 @@
                     "default"
                 ],
                 "resourcePath": "scripts\/initialize_movement_entity\/initialize_movement_entity.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5a386cef-0f38-4607-a027-b35d284e4929",
+            "Value": {
+                "id": "b81922cc-9459-4835-b8a6-2a9fc83bf94c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/draw_self_flash\/draw_self_flash.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1312,6 +1350,25 @@
             }
         },
         {
+            "Key": "dfd5e372-ceab-4c12-beea-5fb177edaafb",
+            "Value": {
+                "id": "f87b3ceb-4303-47c4-8ac9-49e43bae0973",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_death_effect\/s_death_effect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e01125bc-f1e0-4481-bf1b-d8e676d53e81",
             "Value": {
                 "id": "6af180e8-0fd3-48e1-9810-ad73bc3f94bd",
@@ -1636,20 +1693,21 @@
         }
     ],
     "script_order": [
+        "7d561181-75f4-483e-9df4-6f33ad25c30e",
+        "ebf15ea5-c04a-4d97-898c-67939e14494a",
+        "5f392e65-4e33-42c9-b911-25f97d4ea2ed",
+        "88b3fea1-7d65-476e-98c2-ce343b4aa6ae",
         "58d673b5-5eeb-4837-bdd6-810f5b1eeea9",
         "ea6c31a3-c2bc-4a07-8065-5dd6449754eb",
         "d505ab3a-2a93-4577-823e-15195d53307e",
         "78deea04-4e4d-4d98-9d61-1e251feee640",
         "2f57f718-6132-49d7-92b0-fad512ab57ec",
-        "7d561181-75f4-483e-9df4-6f33ad25c30e",
-        "ebf15ea5-c04a-4d97-898c-67939e14494a",
-        "5f392e65-4e33-42c9-b911-25f97d4ea2ed",
-        "88b3fea1-7d65-476e-98c2-ce343b4aa6ae",
         "767e04c5-e6e3-4f47-bf54-1772c2c6c79b",
         "b7577723-b225-465e-b4b6-8dbcfe90a4f4",
         "77595a91-d631-4cb4-ae58-ae0ee9a9a5db",
         "611d861a-9396-4c08-b199-6aead3755e36",
-        "2d5931ea-6ee1-49e2-be51-01e8726cbbf7"
+        "2d5931ea-6ee1-49e2-be51-01e8726cbbf7",
+        "5a386cef-0f38-4607-a027-b35d284e4929"
     ],
     "tutorial": ""
 }
