@@ -58,6 +58,25 @@
             }
         },
         {
+            "Key": "0bfbfa5a-c549-426d-9f01-990c9b9ee7ad",
+            "Value": {
+                "id": "90d24e04-8207-45e3-906a-815602f6862b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/0bfbfa5a-c549-426d-9f01-990c9b9ee7ad.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "10df8b1e-3635-4bb1-be2d-26e55d779f73",
             "Value": {
                 "id": "2a4753c5-f3c8-4a35-8e0a-82d9b44d689e",
@@ -1027,6 +1046,25 @@
             }
         },
         {
+            "Key": "b13cad68-32fb-4fb6-acad-6923f825f4ca",
+            "Value": {
+                "id": "668b57ca-a693-487c-bf5d-4d4a7f9238ed",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/round_n\/round_n.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b5488d8f-d7a4-4bf9-9405-3b874b73ff8c",
             "Value": {
                 "id": "23fdb9ad-1162-4841-98fd-2e12344af4df",
@@ -1407,6 +1445,25 @@
             }
         },
         {
+            "Key": "e6714cf3-5ee3-4292-9c03-6ea29f52b056",
+            "Value": {
+                "id": "df477aba-9ad0-4cc5-a18a-2a8669a6d2d6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_camera\/o_camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e6732aad-2735-41b0-8532-7a760f8a0dfa",
             "Value": {
                 "id": "0f875a48-7bd3-456e-bcac-f91518f8cbe4",
@@ -1694,7 +1751,6 @@
     ],
     "script_order": [
         "7d561181-75f4-483e-9df4-6f33ad25c30e",
-        "ebf15ea5-c04a-4d97-898c-67939e14494a",
         "5f392e65-4e33-42c9-b911-25f97d4ea2ed",
         "88b3fea1-7d65-476e-98c2-ce343b4aa6ae",
         "58d673b5-5eeb-4837-bdd6-810f5b1eeea9",
@@ -1707,7 +1763,9 @@
         "77595a91-d631-4cb4-ae58-ae0ee9a9a5db",
         "611d861a-9396-4c08-b199-6aead3755e36",
         "2d5931ea-6ee1-49e2-be51-01e8726cbbf7",
-        "5a386cef-0f38-4607-a027-b35d284e4929"
+        "5a386cef-0f38-4607-a027-b35d284e4929",
+        "ebf15ea5-c04a-4d97-898c-67939e14494a",
+        "b13cad68-32fb-4fb6-acad-6923f825f4ca"
     ],
     "tutorial": ""
 }
